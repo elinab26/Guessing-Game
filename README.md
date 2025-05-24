@@ -34,3 +34,6 @@ This game was made as part of the Computer Architecture course at Bar Ilan Unive
 4. Be careful! You have only 5 guesses!
 5. When you will guess the correct number, you can choose if you want to double the range of the number and continue to play.
 
+## Running Examples
+![First running](images/image1.png)  
+![Second runnning](images/image2.png)
