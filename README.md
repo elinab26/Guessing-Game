@@ -36,4 +36,5 @@ This game was made as part of the Computer Architecture course at Bar Ilan Unive
 
 ## Running Examples
 ![First running](images/image1.png)  
+
 ![Second runnning](images/image2.png)
