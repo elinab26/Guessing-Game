@@ -10,3 +10,18 @@ This game was made as part of the Computer Architecture course at Bar Ilan Unive
 - Double or Nothing
 - Five Guesses
 
+## How To Run The Game
+1. Make sure you have the `gcc` compiler installed.
+2. Clone this repository:
+    ```sh
+    git clone https://github.com/elinab26/Guessing-Game.git
+    ```
+3. Compile the code:
+    ```sh
+    gcc -no-pie guessing.s -o guessing
+    ```
+4. Run the game:
+    ```sh
+    ./guessing
+    ```
+5. Enjoy and have fun!
