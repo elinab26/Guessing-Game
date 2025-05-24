@@ -30,6 +30,12 @@ main:
     # Enter
     pushq %rbp
     movq %rsp, %rbp  
+	pushq %r12
+	pushq %r13
+	pushq %r14
+	pushq %r15
+	pushq %rbx
+
 	
 	# print the string for seed
 	movq $seed, %rdi
@@ -237,6 +243,11 @@ doubling:
 exit:	
 	# Exit
     xorq %rax, %rax
+	popq %rbx
+	popq %r15
+	popq %r14
+	popq %r13
+	popq %r12
     movq %rbp, %rsp
     popq %rbp
     ret
